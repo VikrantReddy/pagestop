@@ -1,8 +1,3 @@
-# VikrantReddy.github.io
+# PageStop
 
-# My Official Website
-
-### Under rennovation
-
-## Updates
-- Design Completed
+# One stop solution for your online presence needs
