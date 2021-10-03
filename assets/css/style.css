@@ -775,9 +775,6 @@ section {
   color: #009970;
 }
 
-.portfolio-bg {
-  background-color: #f6f6f7;
-}
 
 
 .portfolio .portfolio-item {
@@ -1077,14 +1074,11 @@ section {
   margin-left: 8px;
 }
 
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
-  background: #f6f6f7;
-}
-
-
 .contact .info {
   padding: 30px;
   width: 100%;
@@ -1510,4 +1504,22 @@ section {
   background: #00805d;
   color: #fff;
   text-decoration: none;
+}
+
+
+/*--------------------------------------------------------------
+# Overlay
+--------------------------------------------------------------*/
+#overlay{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right:0;
+  padding-top: 9vh;
+  height:100vh;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 500ms;  
+  opacity: 0;
+  visibility: hidden;
+  z-index: 100;
 }
