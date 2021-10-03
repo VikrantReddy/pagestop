@@ -1521,5 +1521,6 @@ section {
   transition: opacity 500ms;  
   opacity: 0;
   visibility: hidden;
+  overflow-y: scroll;
   z-index: 100;
 }
