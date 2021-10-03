@@ -1086,7 +1086,7 @@ section {
 .contact .info {
   padding: 30px;
   width: 100%;
-  
+
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1365,7 +1365,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  
+
 }
 
 #footer .footer-top .footer-contact {
@@ -1522,8 +1522,9 @@ section {
   padding-top: 9vh;
   height:100vh;
   background: rgba(0, 0, 0, 0.5);
-  transition: opacity 500ms;  
+  transition: opacity 500ms;
   opacity: 0;
   visibility: hidden;
+  overflow-y: scroll;
   z-index: 100;
 }

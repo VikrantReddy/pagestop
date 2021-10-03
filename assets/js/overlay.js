@@ -1,6 +1,7 @@
 function addOverlay() {
   document.getElementById("overlay").style.opacity = 1;
   document.getElementById("overlay").style.visibility = "visible";
+  $("body").css({ position: "sticky", overflow: "hidden" });
 }
 
 function removeOverlay() {
