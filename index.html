@@ -5,18 +5,20 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>Home</title>
+  <title>Pagestop</title>
   <meta content="" name="descriptison" />
   <meta content="" name="keywords" />
 
   <!-- Favicons -->
-  <link href="assets/img/download.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="assets\favicon\favicon-32x32.png" rel="icon" />
+  <link href="assets\favicon\apple-touch-icon.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet" />
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -39,7 +41,7 @@
       <div class="header-container d-flex align-items-center">
         <div class="logo mr-auto">
           <h1 class="text-light">
-            <a href="index.html"><span>Start Today</span></a>
+            <a href="index.html"><span>Page<font color="orange">Stop</font></span></a>
           </h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -50,22 +52,10 @@
             <li class="active"><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li class="drop-down">
-              <a href="">Extras</a>
-              <ul>
-                <li><a href="#">Blog</a></li>
-                <li class="drop-down">
-                  <a href="#">Projects</a>
-                  <ul>
-                    <li><a href="#">Coming Soon</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
-
-            <li class="get-started"><a href="#about">Get Started</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#team">Reviews</a></li>
+            <li class="get-started"><a href="#contact">Contact Us</a></li>
+            <!-- <li class="get-started"><a href="#about">Get Started</a></li> -->
           </ul>
         </nav>
         <!-- .nav-menu -->
@@ -185,88 +175,88 @@
     <!-- End Services Section -->
 
     <!-- =======Cost section======== -->
-    <main id="main">
+    <div id="generic_price_table">
+      <section id="pricing" class="pricing">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <!--PRICE HEADING START-->
+              <div class="section-title" data-aos="fade-right">
+                <h2>Pricing table</h2>
+                <p>
+                  Prices that go easy on your pocket.
+                </p>
+              </div>
 
-      <div id="generic_price_table">
-        <section>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-                <!--PRICE HEADING START-->
-                <div class="section-title" data-aos="fade-right">
-                  <h2>Pricing table</h2>
-                  <p>
-                    Prices that go easy on your pocket.
-                  </p>
-                </div>
-
-                <!-- <div class="price-heading clearfix">
+              <!-- <div class="price-heading clearfix">
                   <h1>Our Pricing Table</h1>
                 </div> -->
-                <!--//PRICE HEADING END-->
-              </div>
+              <!--//PRICE HEADING END-->
             </div>
           </div>
-          <div class="container">
+        </div>
+        <div class="container">
 
-            <!--BLOCK ROW START-->
-            <div class="row">
-              <div class="col-md-4 col-sm-12">
+          <!--BLOCK ROW START-->
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
 
-                <!--PRICE CONTENT START-->
-                <div class="generic_content clearfix">
+              <!--PRICE CONTENT START-->
+              <div class="generic_content clearfix">
 
-                  <!--HEAD PRICE DETAIL START-->
-                  <div class="generic_head_price clearfix">
+                <!--HEAD PRICE DETAIL START-->
+                <div class="generic_head_price clearfix">
 
-                    <!--HEAD CONTENT START-->
-                    <div class="generic_head_content clearfix">
+                  <!--HEAD CONTENT START-->
+                  <div class="generic_head_content clearfix">
 
-                      <!--HEAD START-->
-                      <div class="head_bg"></div>
-                      <div class="head">
-                        <span>Basic Plan</span>
-                      </div>
-                      <!--//HEAD END-->
-
+                    <!--HEAD START-->
+                    <div class="head_bg"></div>
+                    <div class="head">
+                      <span>Basic Plan</span>
                     </div>
-                    <!--//HEAD CONTENT END-->
-
-                    <!--PRICE START-->
-                    <div class="generic_price_tag clearfix">
-                      <span class="price">
-                        <span class="sign">₹</span>
-                        <span class="currency">1500</span>
-                        <span class="month">/website</span>
-                      </span>
-                    </div>
-                    <!--//PRICE END-->
+                    <!--//HEAD END-->
 
                   </div>
-                  <!--//HEAD PRICE DETAIL END-->
+                  <!--//HEAD CONTENT END-->
 
-                  <!--FEATURE LIST START-->
-                  <div class="generic_feature_list">
-                    <ul>
-                      <li><span>2GB</span> Bandwidth</li>
-                      <li><span>150GB</span> Storage</li>
-                      <li><span>12</span> Accounts</li>
-                      <li><span>7</span> Host Domain</li>
-                      <li><span>24/7</span> Support</li>
-                    </ul>
+                  <!--PRICE START-->
+                  <div class="generic_price_tag clearfix">
+                    <span class="price">
+                      <span class="sign">₹</span>
+                      <span class="currency">1500</span>
+                      <span class="month">/website</span>
+                    </span>
                   </div>
-                  <!--//FEATURE LIST END-->
-
-                  <!--BUTTON START-->
-                  <div class="generic_price_btn clearfix">
-                    <a class="" href="">Sign up</a>
-                  </div>
-                  <!--//BUTTON END-->
+                  <!--//PRICE END-->
 
                 </div>
+                <!--//HEAD PRICE DETAIL END-->
+
+                <!--FEATURE LIST START-->
+                <div class="generic_feature_list">
+                  <ul>
+                    <li><span>2GB</span> Bandwidth</li>
+                    <li><span>150GB</span> Storage</li>
+                    <li><span>12</span> Accounts</li>
+                    <li><span>7</span> Host Domain</li>
+                    <li><span>24/7</span> Support</li>
+                  </ul>
+                </div>
+                <!--//FEATURE LIST END-->
+
+                <!--BUTTON START-->
+                <div class="generic_price_btn clearfix">
+                  <a class="" href="">Sign up</a>
+                </div>
+                <!--//BUTTON END-->
+
+              </div>
+              <div class="col-md-4">
                 <!--//PRICE CONTENT END-->
 
               </div>
+
               <div class="col-md-4">
 
                 <!--PRICE CONTENT START-->
@@ -384,9 +374,8 @@
             <br>
             <h5>*->Subject to change depending on the requirements.</h5>
           </div>
-        </section>
-      </div>
-    </main>
+      </section>
+    </div>
 
     <!----- End of Cost section  ------>
 
@@ -476,8 +465,8 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
-              <h2>Team</h2>
-              <p>The pillars behind the success.</p>
+              <h2>Reviews</h2>
+              <p>Read about us from people who have worked with us in the past.</p>
             </div>
           </div>
           <div class="col-lg-8">
@@ -488,10 +477,17 @@
                     <img src="assets/img/team/team-6.png" class="img-fluid" alt="" />
                   </div>
                   <div class="member-info">
-                    <h4>Vikrant Reddy</h4>
+                    <h4>Someone Someone</h4>
                     <span>Developer | Designer | Consultant</span>
+                    <div class="fa fa-star checked"></div>
+                    <div class="fa fa-star checked"></div>
+                    <div class="fa fa-star checked"></div>
+                    <div class="fa fa-star checked"></div>
+                    <div class="fa fa-star"></div>
                     <p>
-                      Leaning while Executing and Executing while Learning
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint neque deserunt facilis nesciunt
+                      rerum ratione ab nemo ipsam tempore dicta magni, non excepturi laudantium ipsum laborum. Ullam ut
+                      repellendus exercitationem facere iure.
                     </p>
                     <div class="social">
                       <a href=""><i class="ri-facebook-fill"></i></a>
@@ -508,9 +504,22 @@
                     <img src="assets/img/team/team-5.jfif" class="img-fluid" alt="" />
                   </div>
                   <div class="member-info">
-                    <h4>Will be hiring soon</h4>
-                    <span>Demand suited</span>
-                    <p>Contact to collab</p>
+                    <h4>Someone Someone-2 </h4>
+                    <span>Developer | Designer | Consultant</span>
+                    <div class="fa fa-star checked"></div>
+                    <div class="fa fa-star checked"></div>
+                    <div class="fa fa-star checked"></div>
+                    <div class="fa fa-star"></div>
+                    <div class="fa fa-star"></div>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio dicta sapiente suscipit ea
+                      laboriosam itaque repudiandae voluptatum fugit nesciunt placeat!
+                    </p>
+                    <div class="social">
+                      <a href=""><i class="ri-facebook-fill"></i></a>
+                      <a href=""><i class="ri-instagram-fill"></i></a>
+                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                    </div>
                   </div>
                 </div>
               </div>

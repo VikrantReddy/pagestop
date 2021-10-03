@@ -406,5 +406,7 @@ body{background-color:#eee;}
     text-decoration:none;
 }
 
-
+.checked {
+    color: orange;
+  }
   
