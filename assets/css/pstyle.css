@@ -37,7 +37,7 @@ body{background-color:#eee;}
     color: #414141;
 }
 
-#generic_price_table .generic_content .generic_feature_list ul li{  
+#generic_price_table .generic_content .generic_feature_list ul li{
     color: #a7a7a7;
 }
 
@@ -50,9 +50,9 @@ body{background-color:#eee;}
 }
 
 #generic_price_table .generic_content .generic_price_btn a{
-    border: 1px solid #009970; 
+    border: 1px solid #009970;
     color: #009970;
-} 
+}
 
 #generic_price_table .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #generic_price_table .generic_content:hover .generic_head_price .generic_head_content .head_bg{
@@ -69,7 +69,7 @@ body{background-color:#eee;}
 #generic_price_table .generic_content.active .generic_price_btn a{
     background-color: #009970;
     color: #fff;
-} 
+}
 #generic_price_table{
     margin:0;
     font-family: 'Raleway', sans-serif;
@@ -215,8 +215,8 @@ body{background-color:#eee;}
     -ms-transition: all 0.3s ease-in-out 0s;
     -o-transition: all 0.3s ease-in-out 0s;
     -webkit-transition: all 0.3s ease-in-out 0s;
-} 
-@media (max-width: 320px) { 
+}
+@media (max-width: 320px) {
 }
 
 @media (max-width: 767px) {
@@ -229,12 +229,12 @@ body{background-color:#eee;}
         float:left;
         width:50%;
     }
-    
+
     #generic_price_table .col-md-4{
         float:left;
         width:50%;
     }
-    
+
     #generic_price_table .generic_content{
         margin-bottom:75px;
     }
@@ -398,7 +398,7 @@ body{background-color:#eee;}
     background-color: #666;
     color: #FFF;
     text-decoration:none;
-    
+
 }
 .bottom_btn:hover{
     background-color: #666;
@@ -409,4 +409,3 @@ body{background-color:#eee;}
 .checked {
     color: orange;
   }
-  
