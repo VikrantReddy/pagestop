@@ -661,19 +661,6 @@ section {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.15);
 }
 
-/*--------------------------------------------------------------
-# Portfolio
---------------------------------------------------------------*/
-.portfolio h4 {
-  cursor: pointer;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
-}
-
-.portfolio h4:hover {
-  color: #009970;
-}
 
 /*--------------------------------------------------------------
 # Cta
@@ -777,6 +764,22 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio h4 {
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.portfolio h4:hover {
+  color: #009970;
+}
+
+.portfolio-bg {
+  background-color: #f6f6f7;
+}
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1077,10 +1080,15 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background: #f6f6f7;
+}
+
+
 .contact .info {
   padding: 30px;
   width: 100%;
-  background: #fff;
+  
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1359,7 +1367,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f9f8f9;
+  
 }
 
 #footer .footer-top .footer-contact {
